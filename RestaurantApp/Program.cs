@@ -13,4 +13,12 @@ namespace RestaurantApp
             Console.WriteLine("Hello TIT.1/1");
         }
     }
+    public class Restaurant
+    {
+        private int Id { get; set; }
+        private string Name { get; set; }
+        private string yype {  get; set; }
+        private double rate { get; set; }
+
+    }
 }
