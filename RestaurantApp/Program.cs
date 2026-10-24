@@ -15,7 +15,9 @@ namespace RestaurantApp
             {
                 new Restaurant(1, "Quanjude Roast Duck", "Beijing Cuisine", 4.5),
                 new Restaurant(2, "Donglaishun Hot Pot", "Hot Pot", 4.6),
-                new Restaurant(3, "Din Tai Fung", "Taiwanese Cuisine", 4.7)
+                new Restaurant(3, "Din Tai Fung", "Taiwanese Cuisine", 4.7),
+                new Restaurant(4, "Tee noi", "Hot Pot", 4.8),
+                new Restaurant(5, "เฒ่าแก่บิ๊ก", "Hot Pot", 4.9)
             };
             foreach (var item in restaurants)
             {
