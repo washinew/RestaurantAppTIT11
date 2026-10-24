@@ -17,15 +17,19 @@ namespace RestaurantApp
                 new Restaurant(2, "Donglaishun Hot Pot", "Hot Pot", 4.6),
                 new Restaurant(3, "Din Tai Fung", "Taiwanese Cuisine", 4.7)
             };
+            foreach (var item in restaurants)
+            {
+                Console.WriteLine($"{item.Id}. {item.Name} ({item.type}) - Rating: {item.rate}");
+            }
 
         }
     }
     public class Restaurant
     {
-        private int Id { get; set; }
-        private string Name { get; set; }
-        private string type {  get; set; }
-        private double rate { get; set; }
+        public int Id { get; set; }
+        public string Name { get; set; }
+        public string type {  get; set; }
+        public double rate { get; set; }
 
         public Restaurant(int id,string name,string t,double r) 
         {
