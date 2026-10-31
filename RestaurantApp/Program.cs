@@ -28,7 +28,7 @@ namespace RestaurantApp
             Console.WriteLine($"Total is {amount}");
             Console.WriteLine($"Average is {avg}");
 
-
+            Console.WriteLine("End");
         }
     }
     public class Restaurant
